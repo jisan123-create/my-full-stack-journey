@@ -1,0 +1,40 @@
+body {
+  font-family: "Caacupe One", sans-serif;
+  margin: 0%;
+  padding: 0%;
+}
+.wrapper {
+  background-image: url(image/pexels-steve-28494634.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 60px 50px;
+  text-align: center;
+  color: white;
+}
+.banner-taitle {
+  font-size: 40px;
+  font-weight: 700;
+}
+.banner-desc {
+  font-size: 25px;
+}
+.btn-primary {
+  margin-right: 10px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid rgb(194, 177, 240);
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 10px;
+}
+/* button 2 */
+.btn-secondary {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-size: 20px;
+}

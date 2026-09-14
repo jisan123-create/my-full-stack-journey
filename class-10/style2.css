@@ -1,0 +1,39 @@
+body{
+      font-family: "Caacupe One", sans-serif;
+}
+.banner-wrapper{
+    background-image: url(image/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+      padding: 90px 40px;
+  text-align: center;
+  color: white;
+
+}
+.hero-title{
+      font-size: 50px;
+  font-weight: 500;
+}
+.hero-text{
+          font-size: 20px;
+  
+}
+.btn-primary{
+      background-color: rgb(193, 235, 5);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-size: 20px;
+}
+.btn-primary2{
+      margin-left: 10px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid rgb(194, 177, 240);
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 10px;
+}  
