@@ -1,0 +1,32 @@
+body{
+    font-family: "Rubik", sans-serif;
+}
+.box2{
+  text-align: center;
+border: 2px solid gray;
+padding: 26px 10px;
+border-radius: 10px;
+display: inline-block;
+align-items: baseline;
+}
+.icon{
+    font-size: 70px;
+    text-align: center;
+}
+.card1{
+  font-size: 40px;
+  font-weight: 700;
+}
+.text-card1{
+font-size: 17px;
+}
+.btn-card{
+  font-size: 15px;
+  background-color:black;
+  color: white;
+  border: 30PX 50PX;
+  padding: 10px 70px;
+  border-radius: 70px;
+  background-size: 20px;
+  text-decoration: none;
+}
