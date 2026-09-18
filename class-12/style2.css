@@ -1,0 +1,32 @@
+body {
+  font-family: "Oswald", sans-serif;
+  padding: 0%;
+  margin: 0%;
+}
+.heading {
+  background-color: rgb(5, 136, 5);
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 1px;
+}
+.heading-h1 {
+  font-size: 25px;
+  font-weight: 900;
+}
+.bennar-text {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.container {
+  background-color: gold;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.container a {
+  color: black;
+  text-decoration: none;
+}
