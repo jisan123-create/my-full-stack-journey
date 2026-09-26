@@ -1,0 +1,31 @@
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  gap: 29px;
+  align-items: center;
+}
+.img {
+  width: 700px;
+  height: 500px;
+  display: block;
+  text-align: center;
+  border-radius: 32px;
+  object-fit: cover;
+}
+.content {
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.btn-start {
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  border: 30px 50px;
+  padding: 10px 20px;
+  border-radius: 70px;
+  background-size: 10px;
+  text-decoration: none;
+}
