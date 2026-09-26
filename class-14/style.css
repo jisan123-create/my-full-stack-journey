@@ -1,0 +1,54 @@
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 40px;
+  row-gap: 20px;
+  justify-content: center;
+}
+
+.box {
+  background-color: white;
+  color: black;
+  width: 350px;
+  height: 420px;
+  border-radius: 10px;
+  border: 2px solid gray;
+}
+
+.img {
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+.img-01 {
+  position: relative;
+  left: 20px;
+  bottom: 30px;
+  border: 2px solid gray;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+}
+
+.text-h2 {
+  position: relative;
+  left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.font-size {
+  position: relative;
+  left: 20px;
+  font-size: 17px;
+  font-weight: 100;
+}
+
+.btn-card {
+  position: relative;
+  left: 20px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 100;
+  color: rgb(238, 0, 198);
+}
