@@ -1,0 +1,505 @@
+:root {
+  --font-primary: "Montagu Slab", serif;
+}
+
+/* colors */
+:root {
+  --primary-color: #ff0052;
+  --secondary-color: #2373f4;
+  --text-color: #063b00;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --section-bg: #f3f4f6;
+  --color-blue: #2391ff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--primary-color);
+}
+/* common css */
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-weight: bold;
+}
+.section-title h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--color-black);
+}
+.section-title padding {
+  padding: 50px 0;
+}
+.section-padding {
+  margin-top: 20px;
+  padding: 40px 0;
+}
+/* page-title */
+.page-title {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: var(--color-white);
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  padding: 40px 0;
+}
+
+/*start header section */
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.logo-img {
+  height: 32px;
+  width: 32px;
+  border-radius: 10px;
+  background-color: var(--color-blue);
+  object-fit: cover;
+}
+.medical {
+  color: var(--color-blue);
+  font-weight: bold;
+  font-size: 32px;
+}
+.custom-btn {
+  background-color: #0429fa;
+  color: white !important ;
+  margin-left: 100px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: var(--primary-color);
+  color: #ffffff !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.header-bg {
+  background-color: var(--color-white);
+  color: var(--color-white);
+}
+
+.header-items a {
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+
+.header-items a:hover {
+  color: var(--secondary-color);
+}
+.header-items a.active {
+  color: var(--secondary-color) !important;
+}
+
+/*  Health care Experience section */
+.background-1 {
+  background-color: #fdffff;
+}
+.btn-2 {
+  background-color: var(--primary-color);
+  color: var(--text-white);
+}
+.btn-2:hover {
+  background-color: var(--hover-color);
+}
+.box-1 {
+  height: 55px;
+  padding: 0px 5px;
+  font-weight: bold;
+  color: var(--text-color);
+  border-right: 1px solid gray;
+}
+.box-1 h2 {
+  margin: 0px;
+  padding: 0px;
+}
+.picture-1 {
+  min-height: 450px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: auto;
+  max-width: 600px;
+  display: block;
+}
+.img-Health {
+  height: 370px;
+  width: 400px;
+  object-fit: cover;
+}
+.Health-care-btn {
+  margin-bottom: 30px;
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  transition: all 0.3s ease-in-out;
+}
+.Health-care-btn:hover {
+  background-color: var(--secondary-color) !important;
+  border-color: var(--secondary-color) !important;
+}
+.icon-2 {
+  position: absolute;
+  left: 60%;
+  top: 5%;
+}
+.icon-2 i {
+  color: var(--secondary-color);
+  font-size: 25px;
+}
+
+.icon-3 {
+  color: var(--secondary-color);
+  margin-left: 50px;
+  font-size: 30px;
+}
+
+.btn-3 {
+ position: absolute;
+ background-color: var(--section-bg);
+ top: 70%;
+ right: 40px;
+ padding: 5px 5px;
+ border-radius: 10px;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ border: none;
+}
+.btn-3 i {
+ color: var(--primary-color);
+ font-size: 20px;
+}
+.btn-3:hover {
+ background-color: var(--primary-color);
+}
+/* end  Health care Experience section */
+
+/* Professional Doctors section */
+.img-doctor {
+  height: 400px;
+  width: 450px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.Professional {
+  margin-left: 30px;
+}
+
+.Professional h4 {
+  font-weight: bold;
+  font-size: 40px;
+  color: var(--secondary-color);
+}
+.Professional p {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.Professionals-Nurse {
+  display: flex;
+  gap: 5px;
+}
+.img-Professionals {
+  width: 20px;
+  height: 20px;
+}
+/*end Professional Doctors section */
+
+/* our services */
+.services-card {
+  background-color: #b0b3ff;
+  border-radius: 8px;
+  padding: 23px 15px;
+  text-align: center;
+}
+.img-05 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.icon-our {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: 46px;
+  background-color: var(--section-bg);
+  border-radius: 50px;
+  margin: 20px 0;
+}
+.services-card h5 {
+  color: var(--text-color);
+  font-size: 23px;
+  font-weight: 600;
+}
+.services-card:hover {
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transform: translateY(-5px);
+}
+.service-btn:hover {
+  background-color: var(--secondary-color) !important;
+  border-color: var(--secondary-color) !important;
+}
+/* end our services */
+
+/* meet our doctor */
+.img-06 {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-color: var(--color-white);
+}
+
+.icon-link-user {
+  display: flex;
+  gap: 10px;
+}
+.icon-link-bi {
+  background-color: var(--secondary-color);
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.icon-link-bi:first-child {
+  margin-left: 60px;
+}
+.icon-link-bi a {
+  color: var(--color-white);
+  font-size: 14px;
+}
+.icon-link-bi a:hover {
+  color: var(--primary-color);
+  transition: all 0.3s ease-in-out;
+}
+
+/*  end  meet our doctor */
+
+/*What people are saying */
+.mission {
+  background-color: var(--section-bg);
+  padding: 50px 0;
+}
+.mission-card {
+  background-color: var(--color-white);
+  padding: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.mission-card .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: 46px;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  margin: 20px 0;
+}
+.quote-icon {
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 15px;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.user-img {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.user-text {
+  font-size: 13px;
+}
+
+.mission-card h5 {
+  color: var(--secondary-color);
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.mission-card:hover {
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transform: translateY(-5px);
+}
+
+/* end What people are saying */
+
+/* concart us */
+.box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.img {
+  height: 30px;
+  width: 25px;
+  object-fit: cover;
+}
+.contact-form {
+  background-color: var(--section-bg);
+  padding: 10px 0;
+}
+.contact-btn {
+  background-color: white;
+  padding: 50px 30px;
+  border-radius: 10px;
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transform: translateY(-5px);
+}
+.info-content h6 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+.info-content p {
+  margin: 0;
+  font-size: 15px;
+}
+.contact-btn h1 {
+  font-size: 33px;
+  font-weight: bold;
+}
+.contact-btn p {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.icon-link {
+  background-color: var(--secondary-color);
+  width: 30px;
+  height: 30px;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.icon-link:first-child {
+  margin-left: 60px;
+}
+.icon-link a {
+  color: var(--color-white);
+  font-size: 14px;
+}
+.icon-link a:hover {
+  color: var(--primary-color);
+  transition: all 0.3s ease-in-out;
+}
+
+/* end concart us */
+
+/* footer section -01 */
+.footer-btn {
+  background-color: var(--secondary-color);
+  color: var(--color-white);
+  padding: 50px 0;
+  justify-content: center;
+}
+.footer-btn h1 {
+  font-weight: bold;
+  font-size: 33px;
+  text-align: center;
+}
+.footer-btn p {
+  margin: 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+.from {
+  margin-top: 20px;
+  width: 400px;
+  margin-left: 400px;
+}
+.btn-footer {
+  background-color: var(--primary-color);
+  color: var(--color-white);
+}
+/*end footer section -01 */
+
+/* footer section-02  */
+.logo-img-footer {
+  height: 32px;
+  width: 32px;
+  border-radius: 10px;
+  background-color: var(--color-white);
+  object-fit: cover;
+}
+
+.medical-footer {
+  color: var(--color-white);
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.icon-footer-madical {
+  display: flex;
+  gap: 17px;
+  position: relative;
+  top: 20px;
+  right: 70px;
+}
+
+.footer {
+  background-color: var(--text-color);
+  color: var(--color-white);
+  padding: 20px 0;
+}
+.footer p {
+  margin: 0;
+  text-align: center;
+  font-size: 14px;
+}
+.footer-content-text {
+  margin-left: 500px;
+  font-size: 50px;
+}
+.footer-content-text h6 {
+  position: relative;
+  bottom: 75px;
+  left: 280px;
+}
+.footer-content-text P {
+  position: relative;
+  bottom: 30px;
+  left: 50px;
+}
+
+.icon-footer {
+  display: flex;
+  gap: 17px;
+  position: relative;
+  top: 20px;
+  right: 70px;
+}
+
+/*end footer section-02  */

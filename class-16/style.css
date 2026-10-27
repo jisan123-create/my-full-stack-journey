@@ -1,0 +1,40 @@
+body {
+  margin-top: 30px;
+  padding: 0px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-image: url(imge/pexels-pixabay-219692.jpg);
+  height: 400px;
+  background-position: center center;
+  justify-content: center;
+  text-align: center;
+}
+.text-size {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.text-p {
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+}
+.btn-viw {
+  text-decoration: none;
+  color: white;
+  border: 2px solid gray;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+.btn-us {
+  text-decoration: none;
+  color: rgb(231, 16, 16);
+  border: 1px solid gray;
+  color: white;
+  background-color: blue;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
